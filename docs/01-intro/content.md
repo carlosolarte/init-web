@@ -298,9 +298,9 @@ GET docs/page.html
 ```
 https://www.google.com/search?q=linux&sourceid=chrome
 ```
-- informations supplémentaires (_parametres_) 
+- Informations supplémentaires (_parametres_) 
 - Commence par point d'interrogation "?"
-- nom + valeur 
+- nom (`q`) `=` valeur (`linux`)
 - les paramètres sont relies avec un "&"
 ---
 ### POST
