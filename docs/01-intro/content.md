@@ -89,7 +89,7 @@ Nous allons suivre le cours en ligne
 ### Fonctionnement du web
 ---
 ### Fonctionnement du web
-Nous allons répondre aux questions suivants :
+Nous allons répondre aux questions suivantes :
 - Comment l'_Internet_ fonctionne ? 
 - Qu'est-ce que c'est la __Web__ ?
 - Qu'est-ce que c'est le modèle _client-serveur_ ?
@@ -121,8 +121,8 @@ Application permettant de consulter des pages Web à l'aide d'un _navigateur_.
 - Autres applications : courrier électronique, streaming, vidéoconférence, etc. 
 - _Internet_: réseau informatique (réseau de réseaux)
 - _Internet_: système de communication capable d’envoyer des données par paquets 
-- La Web a été inventé en 1989-1990 par Tim Berners-Lee
 - En 1983, le nom "Internet" devient officiel.  
+- La Web a été inventé en 1989-1990 par Tim Berners-Lee
 ---
 
 ### Navigateur 
@@ -263,7 +263,7 @@ Quel type de service ?
 ---
 ### Le modèle client-serveur
 #### Client
-- ordinateur, portable, tablette, smartphone, etc. 
+- Ordinateur, portable, tablette, smartphone, etc. 
 - Navigateur 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/128px-Google_Chrome_icon_%28February_2022%29.svg.png" width=100>
