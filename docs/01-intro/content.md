@@ -7,7 +7,7 @@
 - Nathalie Pernelle
 - Yasmine Chouikha
 - Mario Valencia
-- Alexandre Louvel
+- Alexandre Louvet
 
 email: <olarte@lipn.univ-paris13.fr>
 
