@@ -91,7 +91,7 @@ Nous allons suivre le cours en ligne
 ### Fonctionnement du web
 Nous allons répondre aux questions suivantes :
 - Comment l'_Internet_ fonctionne ? 
-- Qu'est-ce que c'est la __Web__ ?
+- Qu'est-ce que c'est le __Web__ ?
 - Qu'est-ce que c'est le modèle _client-serveur_ ?
 - Comment écrire une page Web ?
 
@@ -162,7 +162,7 @@ _Localisateur Universel de Ressources_
 `nom-du-protocole://adresse-du-site/chemin-du-repertoire/fichier`
 
 - _nom-du-protocole_ : langage utilisé pour la communication entre ordinateurs.
-- Protocole pour la Web : __http / https__
+- Protocole pour le Web : __http / https__
 - _adresse-du-site_ : Adresse du serveur 
 - _chemin-du-repertoire_ : répertoire où se trouve le fichier
 - _fichier_ : nom du fichier que l'on veut afficher
@@ -292,7 +292,7 @@ Métodes de requêtes
 ```
 GET docs/page.html
 ```
- le serveur renvoi le fichier `page.html`
+ le serveur renvoie le fichier `page.html`
 ---
 ### GET
 ```
