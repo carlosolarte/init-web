@@ -323,8 +323,15 @@ https://www.google.com/search?q=linux&sourceid=chrome
 - _TRACE_ : tracer le chemin qu'une requête HTTP emprunte jusqu'au serveur puis jusqu'au client
 
 ---
-### Protocole HTTP
-Code HTML et visualisation 
+### Réponse du serveur
+<img src="404.png">
+---
+### Réponse du serveur
+- _200_ (OK) : la requête a réussi.
+- _404_ (Not found) : Le serveur n'a pas trouvé la ressource demandée.
+
+---
+### Code HTML et visualisation 
 
 <img width=500 src="html-page.png">
 
@@ -334,3 +341,8 @@ Code HTML et visualisation
 ### Pages statiques et dynamiques 
 - _Statiques_ :  le contenu ne varie pas (sauf modification du code source HTML)
 - _Dynamiques_ : GMail, Facebook, ENT, ...
+
+---
+### QCM
+
+https://www.wooclap.com/IWCM1
