@@ -20,9 +20,12 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Emploi du temps 
 * Évaluation 
 
-#### Introduction 
- * Fonctionnement du Web
+#### Fonctionnement du Web
  * Modèle client-serveur 
+ * Protocoles 
+ * WWW
+
+#### HTML (Introduction) [CM1 et CM2](./02-html)
  * Hypertextes
  * Balises et attributs.
  * Structure d'un document HTML5
