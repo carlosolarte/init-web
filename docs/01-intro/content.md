@@ -82,8 +82,9 @@ Nous allons suivre le cours en ligne
 - _EVC_: 3 TP noté 
 ---
 ### Références et ressources 
-- Le langage CSS (Wikilivres) https://fr.wikibooks.org/wiki/Le_langage_CSS
-- Le langage HTML (Wikilivres) https://fr.wikibooks.org/wiki/Le_langage_HTML
+- [Le langage HTML (Wikilivres)](https://fr.wikibooks.org/wiki/Le_langage_HTML)
+- [Le langage CSS (Wikilivres)](https://fr.wikibooks.org/wiki/Le_langage_CSS)
+- [Commencer avec le HTML](https://developer.mozilla.org/fr/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
 ---
 ## CM1
 ### Fonctionnement du web
@@ -131,6 +132,7 @@ Logiciel qui permet la visualisation de pages Web
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/128px-Google_Chrome_icon_%28February_2022%29.svg.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/128px-Microsoft_Edge_logo_%282019%29.svg.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Safari_14_icon.png/128px-Safari_14_icon.png" width=100>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mozilla_Firefox_2004_Logo.png/240px-Mozilla_Firefox_2004_Logo.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/128px-Opera_2015_icon.svg.png" width=100>
 ...
 
@@ -184,7 +186,7 @@ _Localisateur Universel de Ressources_
 _adresse-du-site_ : Adresse IP ou nom du serveur. 
 
 > Adresse IP : numéro d'identification attribué à chaque matériel informatique   connecté à un réseau utilisant l'_Internet Protocol_ (IP). 
-- 4 nombres d'un octet chacun (32 bits)
+- 4 nombres d'un octet chacun (32 bits) -IPv4-
 - nombres compris entre 0 et 255
 - Par exemple: 
 
@@ -250,8 +252,8 @@ Quel type de service ?
 #### Web Server
 - Ordinateur affecté au stockage des pages Web et au traitement des _requêtes_ provenant des __clients__
 
-<img width=200 src="https://www.nginx.com/wp-content/uploads/2020/06/NGINX-Logo-White-Endorsement-RGB.svg">
 <img width=200 src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Apache_HTTP_server_logo_%282019-present%29.svg/440px-Apache_HTTP_server_logo_%282019-present%29.svg.png" >
+<img width=200 src="https://www.nginx.com/wp-content/uploads/2020/06/NGINX-Logo-White-Endorsement-RGB.svg">
 
 #### Frameworks,  SGBD ...
 
@@ -269,6 +271,7 @@ Quel type de service ?
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/128px-Google_Chrome_icon_%28February_2022%29.svg.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/128px-Microsoft_Edge_logo_%282019%29.svg.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/71/Safari_14_icon.png/128px-Safari_14_icon.png" width=100>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Mozilla_Firefox_2004_Logo.png/240px-Mozilla_Firefox_2004_Logo.png" width=100>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/128px-Opera_2015_icon.svg.png" width=100>
 ...
 

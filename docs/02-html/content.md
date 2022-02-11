@@ -61,7 +61,11 @@ De manière générale:
 - Certaines balises ne sont pas utilisées par paire
 - il n’y a rien à mettre entre la balise ouvrante et la balise fermante
 
-Exemple : un retour à la ligne ` <br /> `
+Exemple : 
+ -  retour à la ligne : ` <br /> `  
+ -  plus simplement :  `<br>`
+ -  images  `<img src="photo.png" />`  
+ -  ou :  `<img src="photo.png">`
 ---
 ### Balises et attributs
 
