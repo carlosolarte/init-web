@@ -65,16 +65,15 @@ Nous allons suivre le cours en ligne
 * _24.02_ :  CM3 + TP2
 * __03.03__ :  __Vacances__
 * _10.03_ :  CM4 + TP3
-* _17.03_ :  CM5 + TP4
 ---
 ### Emploi du temps
 <img src="schedule.png" width=300>
 
-* __24.03__ :  __Partiel 1__
+* _17.03_ :  CM5 + TP4
 * _31.03_ :  CM6 + TP5
 * _07.04_ :  CM7 + TP6
 * _14.04_ :  TP7
-* __19.05__ :  __Partiel 2__
+* __19.05__ :  __Partiel 1__
 
 --- 
 ### Évaluation 
