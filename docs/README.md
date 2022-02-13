@@ -21,11 +21,15 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Évaluation 
 
 #### Fonctionnement du Web
- * Modèle client-serveur 
- * Protocoles 
- * WWW
+* Modèle client-serveur 
+* Protocoles 
+* WWW
 
 #### HTML (Introduction) [CM1 et CM2](./02-html)
- * Hypertextes
- * Balises et attributs.
- * Structure d'un document HTML5
+* Structure d'un document HTML5
+
+## [CM 2: HTML (17/02/2022)](./02-html)
+* Hypertextes
+* Balises et attributs.
+* Principales balises HTML
+
