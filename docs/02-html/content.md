@@ -52,7 +52,7 @@ Un paragraphe qui mentionne une
 ```
 ---
 ### HTML (Un peu d'histoire) 
-- 1991 - 1993 : en l’absence de standard, ce sont les navigateurs Web
+- 1991 - 1993 : en l'absence de standard, ce sont les navigateurs Web
 qui décident de facto de l'évolution de HTML
 
 <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Navigator_1-22.png">
@@ -202,7 +202,7 @@ Voir [Exemple1](./exemples/ex1.html)
 - _Saute de ligne_ : Balise `<br />`
 
 > Il est d'usage de créer un second paragraphe (`<p>`) plutôt
-qu’un saut de ligne (`<br>`).
+qu'un saut de ligne (`<br>`).
 ```html
 <p> un premier paragraph </p>
 <p> un second paragraph </p>
@@ -315,7 +315,7 @@ Voir [Exemple 6](./exemples/ex6.html)
 <p id="macible2"> texte  </p>
 ```
 
-- `<a href="#macible"> texte </a>` : pour definir le lien
+- `<a href="#macible"> texte </a>` : pour définir le lien
 
 Voir  [exemple 8](./exemples/ex8.html)
 
