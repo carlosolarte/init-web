@@ -47,7 +47,7 @@ _Les liens hypertext_ : Permettent de __pointer__ vers une __autre page__
 - 1991 : proposition de _balises_
 
 ```html
-Un paragraphe qui mentionne une
+Un paragraphe qui mentionne 
 <a href="http://..."> une autre page </a>...
 ```
 ---
@@ -55,7 +55,7 @@ Un paragraphe qui mentionne une
 - 1991 - 1993 : en l'absence de standard, ce sont les navigateurs Web
 qui décident de facto de l'évolution de HTML
 
-<img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Navigator_1-22.png">
+<img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Navigator_1-22.png" width="500">
 ---
 ### HTML (Un peu d'histoire) 
 
@@ -91,7 +91,7 @@ __Respecter le standard limite les différences potentielles d'affichage__
 <img src="wrong-code.png">
 ---
 ### Validateur du W3C
-Un outil indispensable 
+Un outil _indispensable_
 
 http://validator.w3.org/
 
@@ -149,6 +149,8 @@ Exemple :
 ```html
 <!-- Ceci est un commentaire -->
 ```
+> Mais on peut toujours voir le code source de la page ! 
+
 ---
 ### Structuration d'un document HTML
 
@@ -162,9 +164,11 @@ Deux grandes parties :
 ---
 ### Structuration d'un document HTML
 
-Un document conforme à la syntaxe de HTML5 _commence nécessairement_
+- Un document conforme à la syntaxe de HTML5 _commence nécessairement_
 par 
 `<!DOCTYPE html>`
+- `<html lang="fr">` : L'usage de l'attribut `lang` est fortement recommandé. 
+
 ---
 ### Structuration d'un document HTML
 _En-tête_ : Entre les balises `<head>` et `</head>`
@@ -195,6 +199,12 @@ Information (optionnelle) pour les moteurs de recherche
 
 Voir [Exemple1](./exemples/ex1.html)
 ---
+### Structuration d'un document HTML
+_Indenter_ nous permet d'avoir un code plus lisible !
+
+<img src="indenter.png" width=800>
+
+---
 ## Principales balises HTML
 ---
 ### Paragraphes
@@ -212,7 +222,7 @@ qu'un saut de ligne (`<br>`).
 ### Sections
 
 Balise `<div>` : élément structurel (division ou section)
-> Il est d'usage d'organiser la page Web en `<div>` imbriquées.
+> Il est d'usage d'organiser la page Web en `<div>` _imbriquées_.
 
 ```html
 <div>
@@ -244,6 +254,18 @@ Voir [Exemple 3](./exemples/ex3.html)
 <img src="liste.png" width="450">
 
 Voir [Exemple 4](./exemples/ex4.html)
+
+---
+### Listes à puces 
+Les listes peuvent être imbriquées aussi :
+Voir [Exemple 4-2](./exemples/ex4-2.html)
+
+#### Attribut `type` 
+- `type="1"` : 1,2,3,...
+- `type="A"` : A,B,C,...
+- `type="a"` : a,b,c,...
+- `type="I"` : I,II,III,...
+- `type="i"` : i,ii,iii,...
 
 ---
 ### Ligne horizontale
@@ -285,13 +307,23 @@ Voir [Exemple 6](./exemples/ex6.html)
 - `<i>` : italique
 - `<em>` : emphase (s’affiche en général comme italique)
 - `<u>` : souligné (_u_nderline)
-
+- `<mark>` : texte marqué (s'affiche en général comme souligné)
 ---
 ### Soulignement et importance
 
 <img src="text.png">
 
 Voir [Exemple 6](./exemples/ex6.html)
+---
+### Soulignement et importance
+- `<strong>, <em>, <mark>` : 
+ - Elles indiquent le _sens_ du texte
+ - Mis en valeur du texte 
+- `<b>, <i>, <u>` : 
+ - Mettre en gras, italique ou souligné. 
+
+> Il est d'usage d'utiliser `<strong>, <em>, <mark>` pour mettre
+en valeur le texte. 
 
 ---
 ### Les liens hypertextes externes
@@ -351,9 +383,21 @@ Voir [Exemple 10](./exemples/ex10.html)
 - _src_ :  indique le nom du fichier de l'image 
 - _alt_ : texte alternatif décrivant l'image
 
+#### Autres  attributs 
+- _title_ : Bulle d'information. 
+- _width_ : La largeur intrinsèque de l'image en pixels
+- _height_ : La hauteur intrinsèque de l'image en pixels. 
+
 `<img src="photo.png" alt="Photo">`
 
 Voir [Exemple 11](./exemples/ex11.html)
+
+---
+### Images
+- `figure` : Spécifier les illustrations, schémas, photos, listes de codes, etc.
+- `figcaption` : Ajouter une légende
+
+Voir [Exemple 11-2](./exemples/ex11-2.html)
 
 ---
 ### En-têtes et pieds de page
@@ -368,4 +412,7 @@ Voir [Exemple 12](./exemples/ex12.html)
 - `<nav>` : Section destinée à la navigation (menus, tables de matières, etc)
 
 Voir [Exemple 13](./exemples/ex13.html)
+---
+### QCM
 
+https://www.wooclap.com/IWCM2
