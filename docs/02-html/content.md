@@ -302,12 +302,14 @@ Voir [Exemple 6](./exemples/ex6.html)
 
 ---
 ### Soulignement et importance
-- `<b>` : gras (_b_old)
 - `<strong>` : forte importance (normalement s'affiche en gras)
-- `<i>` : italique
-- `<em>` : emphase (s’affiche en général comme italique)
-- `<u>` : souligné (_u_nderline)
+- `<em>` :     emphase (s’affiche en général comme italique)
 - `<mark>` : texte marqué (s'affiche en général comme souligné)
+
+#### Modifier la police 
+- `<b>` : gras (_b_old)
+- `<i>` : italique
+- `<u>` : souligné (_u_nderline)
 ---
 ### Soulignement et importance
 
