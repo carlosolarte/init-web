@@ -1,0 +1,13 @@
+h1{
+    color : white;
+    font-weight : bold;
+    background-color: black;
+}
+
+h2{
+    color : white;
+    font-weight : bold;
+    font-style : italic;
+    background-color: gray;
+}
+

@@ -33,3 +33,8 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Balises et attributs.
 * Principales balises HTML
 
+## [CM 3: CSS (24/02/2022)](./03-css)
+* Feuilles de style en cascade
+* Fond vs. Forme
+* Les principales propriétés et leurs valeurs
+

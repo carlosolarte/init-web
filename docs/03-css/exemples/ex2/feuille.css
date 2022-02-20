@@ -1,0 +1,135 @@
+#ex1{
+    font-size : xx-small;
+}
+#ex2{
+    font-size : x-small;
+}
+#ex3{
+    font-size : small;
+}
+#ex4{
+    font-size : medium;
+}
+#ex5{
+    font-size : large;
+}
+#ex6{
+    font-size : x-large;
+}
+#ex7{
+    font-size : xx-large;
+}
+/* Exemples de tailles relatives */
+#ex8{
+    font-size : smaller;
+}
+#ex9{
+    font-size : smaller;
+}
+#ex10{
+    font-size : 12px;
+}
+#ex11{
+    font-size : 18px;
+}
+#ex12{
+    font-size : 24px;
+}
+#ex13{
+    font-size : 0.8em;
+}
+#ex14{
+    font-family: system-ui;
+    font-weight : lighter;
+}
+#ex15{
+    font-family: system-ui;
+    font-weight : normal;
+}
+#ex16{
+    font-family: system-ui;
+    font-weight : bold;
+}
+#ex17{
+    font-family: system-ui;
+    font-weight : bolder;
+}
+#ex18{
+    font-family: system-ui;
+    font-weight : 800;
+}
+#ex19{
+    font-style : normal;
+}
+#ex20{
+    font-style : italic;
+}
+#ex21{
+    text-decoration : normal;
+}
+#ex22{
+    text-decoration : underline;
+}
+#ex23{
+    text-decoration : overline;
+}
+#ex24{
+    text-decoration : line-through;
+}
+#ex25{
+    text-decoration : underline wavy red;
+}
+#ex26{
+    text-decoration : underline dotted blue;
+}
+#ex27{
+    text-decoration : underline overline dotted green;
+}
+#ex28{
+    font-family : serif;
+}
+#ex29{
+    font-family : sans-serif;
+}
+#ex30{
+    font-family : cursive;
+}
+#ex31{
+    font-family : Arial, Helvetica;
+}
+#ex32{
+    font-family : system-ui;
+}
+@font-face {
+    font-family: Kahlesv;
+    src: url(Kahlesv2.ttf);
+}
+#ex33{
+    font-family : Kahlesv;
+}
+
+/* Capitales */
+#ex34{
+    text-transform: uppercase;
+}
+#ex35{
+    text-transform : capitalize;
+}
+#ex36{
+    text-align : center;
+}
+#ex37{
+    text-align : right;
+}
+#ex38{
+    text-align : justify;
+}
+#ex39{ color : seashell; }
+#ex40{ color : tomato; }
+#ex41{ color : goldenrod; }
+#ex42{ color : #FFFFE0; }
+#ex43{ color : #F0E2A1; }
+#ex44{ color : #23FF12; }
+#ex45{ color : rgb(200,100,50); }
+#ex46{ color : rgb(23,50,23); }
+#ex47{ color : rgb(90,55,123); }
