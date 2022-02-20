@@ -418,3 +418,64 @@ Voir [Exemple 13](./exemples/ex13.html)
 ### QCM
 
 https://www.wooclap.com/IWCM2
+---
+### Représentation d’un document HTML sous forme d’arbre
+---
+### Arbre
+- Tout document HTML peut être représenté sous forme d’arbre
+- Cela peut être vue comme un arbre généalogique. 
+- Les sommets de l’arbre sont des balises HTML.
+- Il existe une flèche de la `balise1` à une autre `balise2`, si `balise2` est comprise entre `<balise1>` et `</balise1>`
+---
+### Arbre
+ Une balise balise1 est dite _XXXX_ d’une balise balise2  si:
+
+- _enfant_ : s’il existe une flèche de balise1 à balise2.  
+- _parent_ : si balise2 est enfant de balise1. 
+- _descendant_ : si en prenant successivement les parents de balise1, on arrive sur balise2. 
+- _ascendant_ : si balise2 est descendant de balise1.
+
+>__Attention__ : Dans l’arbre de représentation, les enfants d’une balise sont
+>ordonnés de gauche à droite suivant l’ordre dans lequel ils apparaissent dans
+>le document HTML. 
+
+---
+### Arbre
+Voici l'arbre géré par [HTML Tree Generator](https://chrome.google.com/webstore/detail/html-tree-generator/)
+
+<img src="./treeH.png" width="100">
+<!-- .element: style="text-align: left; float:left; width: 48%" -->
+<img src="./tree.png" width="100">
+<!-- .element: style="text-align: right; float: right; width: 48%" -->
+
+---
+### Règles d’écriture d’un fichier HTML
+- Afin d’être valide, un document HTML doit vérifier un certain nombre de règles. 
+- Ces règles ont pour but __d’afficher correctement__ une page Web 
+- Les règles  permettent également:
+ - une meilleure visibilité du site sur le Web
+ - rendre le site accessible pour tous les types de navigateurs 
+---
+### Règles d’écriture d’un fichier HTML
+Il est primordial de suivre ces règles
+- _Ordre des balises_ : Il n’est pas possible d’ouvrir une première balise,
+  puis une seconde, puis fermer la première et fermer la seconde. 
+
+__PAS VALIDE__ : 
+`<p>...<strong> ... </p> ... </strong>`
+---
+### Règles d’écriture d’un fichier HTML
+
+- Enfants et parents possibles
+ * un titre ne peut pas être fils de paragraphe et inversement
+ * un paragraphe ne peut pas être fils d’un autre paragraphe
+ * les seuls fils possibles pour les balises `ul` et `ol` sont les balises `li`
+
+---
+### Règles d’écriture d’un fichier HTML
+#### Validateur 
+
+- Même si le navigateur affiche correctement une page Web, cela ne signifie pas
+que celle-ci est valide. 
+- Il faut vérifier un code HTML à l’aide d’un validateur
+HTML tel que [validator](https://validator.w3.org/)
