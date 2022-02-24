@@ -424,11 +424,12 @@ https://www.wooclap.com/IWCM2
 ### Arbre
 - Tout document HTML peut être représenté sous forme d’arbre
 - Cela peut être vue comme un arbre généalogique. 
-- Les sommets de l’arbre sont des balises HTML.
-- Il existe une flèche de la `balise1` à une autre `balise2`, si `balise2` est comprise entre `<balise1>` et `</balise1>`
+
+<img src="./treeB.png" width="500">
+
 ---
 ### Arbre
- Une balise balise1 est dite _XXXX_ d’une balise balise2  si:
+ Une balise balise1 est dite _[...]_ d’une balise balise2  si:
 
 - _enfant_ : s’il existe une flèche de balise1 à balise2.  
 - _parent_ : si balise2 est enfant de balise1. 

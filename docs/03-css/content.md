@@ -89,8 +89,13 @@ Structure / Fond
 ### HTML + CSS
 Mis en forme 
 
-<img src="css1.png" width=800>
+<img src="css3.png" width=300>
 
+---
+### HTML + CSS
+Mis en forme 
+
+<img src="css1.png" width=800>
 ---
 ### CSS : Syntaxe générale 
 
@@ -111,7 +116,7 @@ Mis en forme
 - Comment inclure la feuille de style dans la page HTML ?
 ---
 ### Fichier CSS
-À éviter ! 
+__À éviter !!!__
 
 ```html
 <h1 style="color : white ; 
@@ -161,7 +166,7 @@ Les avantages de cette méthode :
 - _Séparation totale_ de la structure et de la présentation 
 - Possibilité d’avoir des présentations __alternatives__
 - Possibilité d’appliquer la même feuille de style sur plusieurs pages 
-- Cohérence de la présentation sur tout le site et les pages futures.
+- _Cohérence_ de la présentation sur tout le site et les pages futures.
 ---
 ### Commentaires 
 Code CSS qui __n’est pas exécuté__, donc non pris en compte par le navigateur
@@ -286,6 +291,11 @@ Voir [exemple](./exemples/ex2/page4.html)
 - Code _hexadécimal_ : composé de trois chiffres hexadécimaux représentant les
   tons de __rouge__, de __vert__ et de __bleu__. Il permet de définir plus de 16 millions
   de couleurs (ex. `#4B0082`).
+
+---
+### Couleurs 
+`color` : couleur de la police 
+
 - _Code RGB_ : définit les composantes de __rouge__, __vert__ et __bleu__ en
   indiquant leur proportion en pourcentage ou en notation absolue (0-255).
   Ex. `rgb(75,0,130)`. 
@@ -293,7 +303,5 @@ Voir [exemple](./exemples/ex2/page4.html)
 
 Voir la liste de couleurs [ici](https://fr.wikipedia.org/wiki/Couleur_du_Web)
 Outils : [gcolor3](https://github.com/Hjdskes/gcolor3)
----
-### QCM
 
-https://www.wooclap.com/IWCM3
+[Exemple](./exemples/ex2/page5.html)

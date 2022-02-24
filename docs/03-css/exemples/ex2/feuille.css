@@ -58,6 +58,21 @@
     font-family: system-ui;
     font-weight : 800;
 }
+#ex14a{
+    font-weight : lighter;
+}
+#ex15a{
+    font-weight : normal;
+}
+#ex16a{
+    font-weight : bold;
+}
+#ex17a{
+    font-weight : bolder;
+}
+#ex18a{
+    font-weight : 800;
+}
 #ex19{
     font-style : normal;
 }
