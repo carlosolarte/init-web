@@ -28,13 +28,17 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 #### HTML (Introduction) [CM1 et CM2](./02-html)
 * Structure d'un document HTML5
 
-## [CM 2: HTML (17/02/2022)](./02-html)
+## [CM 2 : HTML (17/02/2022)](./02-html)
 * Hypertextes
 * Balises et attributs.
 * Principales balises HTML
 
-## [CM 3: CSS (24/02/2022)](./03-css)
+## [CM 3 : CSS (24/02/2022)](./03-css)
 * Feuilles de style en cascade
 * Fond vs. Forme
 * Les principales propriétés et leurs valeurs
 
+## [CM 4 : CSS (10/03/2022](./03-css/#/32)
+* Modification du texte
+* Couleurs
+* Identifiants et classes

@@ -305,3 +305,202 @@ Voir la liste de couleurs [ici](https://fr.wikipedia.org/wiki/Couleur_du_Web)
 Outils : [gcolor3](https://github.com/Hjdskes/gcolor3)
 
 [Exemple](./exemples/ex2/page5.html)
+
+---
+### Couleurs de fond
+- `background-color` : indique la couleur de fond
+
+[Exemple](./exemples/ex3/page1.html)
+
+---
+### Les flottants
+- `float` : faire "flotter" un élément au tour du texte 
+- Valeurs : `right` ou `left`
+- `clear` : l'élément ne continue pas à flotter.
+- Valeurs : `right`, `left`, `both` 
+
+Voir [Exemple](./exemples/ex3/page.html)
+
+---
+### Images de fond
+- `background-image: url("image.png")`
+
+* [Exemple répétition](./exemples/ex3/page4.html)
+* [Exemple répétition Y](./exemples/ex3/page4a.html)
+* [Exemple cover ](./exemples/ex3/page4b.html)
+
+---
+### Identifiants et classes
+
+```css
+h2{
+    ...
+}
+```
+
+Toutes les balises `<h2>` sont modifiées 
+---
+### Identifiants et classes
+#### Identifiants 
+* Syntaxe _HTML_ : `<h1 id="titre">`
+* Syntaxe _CSS_ : `#titre { ... }`
+* Utilisation _unique_ (un seul `id="titre"` dans la page HTML)
+---
+### Identifiants et classes
+#### Classes
+* Syntaxe _HTML_ : `<h1 class="titre">`
+* Syntaxe _CSS_ : `.titre { ... }`
+* Utilisation multiple (plusieurs `class="titre"` autorisés dans la page HTML)
+
+---
+### Identifiants et classes
+#### Conteneurs
+Destinés à _structurer_ le contenu.
+
+- `<span class...>` ou `<div class...>` : appliquer une classe à une portion de code
+  HTML qui n’est pas délimitée par des balises
+- `<span id...>` ou `<div id...>` : idem pour les identifiants. 
+
+- _Div_ : Pour les _blocs_
+- _Spam_ : Pour les lignes (__"inline"__) 
+
+[Exemple](exemples/ex3/page2.html)
+
+---
+### Héritage
+
+* Les propriétés CSS _héritent_ des propriétés parentes. 
+
+Voir [Exemple](./exemples/ex3/page3.html)
+
+---
+### Combinaisons de sélecteurs
+```css
+h2{
+    ...
+}
+```
+Toutes les balises `<h2>` sont modifiées 
+---
+### Combinaisons de sélecteurs
+
+```css
+X,Z{
+    ...
+}
+```
+Les modifications s’appliquent aux éléments X et aux éléments Z
+
+Voir [Exemple](./exemples/ex4/page0.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+X Z{
+    ...
+}
+```
+Correspond à tout élément  Z qui est un _descendant_ de l'élément X
+
+Voir [Exemple](./exemples/ex4/page.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+X>Z{
+    ...
+}
+```
+Correspond à tout élément  Z qui est un _enfant_ de l'élément X
+
+Voir [Exemple](./exemples/ex4/page1.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+*{
+    ...
+}
+```
+Tous les éléments 
+
+Voir [Exemple](./exemples/ex4/pageetoile.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+X~Z{
+    ...
+}
+```
+Correspond à tous les Z qui _suivent_ un élément X et qui sont __au même niveau__ (voisins / frères et sœurs)
+
+Voir [Exemple](./exemples/ex4/page2.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+X+Z{
+    ...
+}
+```
+Correspond à l’élément directement suivant à X 
+
+Voir [Exemple](./exemples/ex4/page3.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+X.maClasse{
+    ...
+}
+```
+Correspond à tout élément X ayant comme classe "maClasse"
+
+Voir [Exemple](./exemples/ex4/page4.html)
+
+---
+### Combinaisons de sélecteurs
+
+```css
+.maClasse X{
+    ...
+}
+```
+Correspond aux éléments X descendants d’un élément ayant comme classe maClasse 
+
+Voir [Exemple](./exemples/ex4/page5.html)
+
+---
+### Combinaisons de sélecteurs
+
+- __`#abc p.rouge > a`__ :  cible les liens qui sont _enfants_ de paragraphes
+  appartenant à la classe "rouge", eux-mêmes _descendants_ d'éléments dont
+  l’identifiant est "abc".
+- __`p > em.rouge.Italique,   h1.bleu`__ : cible les éléments mis en
+  valeur par la balise em appartenant aux classes "rouge" et "Italique" et
+  enfants de paragraphes, ou alors aux éléments h1 appartenant à la classe
+  "bleu".
+- __`p.rouge`__ : les paragraphes appartenant à la classe "rouge"
+- __`p .rouge`__ : les éléments appartenant à la classe"rouge" et descendants d’un paragraphe.
+
+---
+### Combinaisons de sélecteurs
+#### pseudo-éléments et pseudo-classes
+
+* `first-child` : désigne le premier enfant d'un élément
+* `A[B]` : Tous les éléments A avec un attributs B
+
+---
+### Validateur
+
+https://jigsaw.w3.org/css-validator/
+---
+### Jeu
+https://flukeout.github.io/

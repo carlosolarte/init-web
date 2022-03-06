@@ -1,0 +1,37 @@
+#imgfloat{
+    float : left;
+}
+
+#textclear{
+    clear : both;
+}
+
+#bggray{
+    background-color : #F4EFEE;
+}
+
+#bgyellow{
+    background-color : #F0F2D4;
+}
+
+h2{
+    background-color : black ;
+    color : white ;
+}
+
+.classPar{
+    background-color : black ;
+    color : white ;
+}
+
+#par1{
+    background-color : blue ;
+    color : white ;
+}
+
+.red{
+    color : red ;
+}
+.blue{
+    color : blue ;
+}
