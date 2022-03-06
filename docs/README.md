@@ -38,7 +38,7 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Fond vs. Forme
 * Les principales propriétés et leurs valeurs
 
-## [CM 4 : CSS (10/03/2022](./03-css/#/32)
+## [CM 4 : CSS (10/03/2022)](./03-css/#/32)
 * Modification du texte
 * Couleurs
 * Identifiants et classes
