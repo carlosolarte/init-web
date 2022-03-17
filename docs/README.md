@@ -49,4 +49,3 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Ordre d'application
 * Marges et Bordures
 
-[TP Noté 2](./TP2.pdf)
