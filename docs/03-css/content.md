@@ -494,8 +494,47 @@ Voir [Exemple](./exemples/ex4/page5.html)
 ### Combinaisons de sélecteurs
 #### pseudo-éléments et pseudo-classes
 
-* `first-child` : désigne le premier enfant d'un élément
 * `A[B]` : Tous les éléments A avec un attributs B
+- `a[title]` : liens avec un attribut `title` 
+- `a[title="titre"]` : liens avec `title` titre
+- `a[title*="tre"]` : liens avec `title` qui contient tre
+
+Voir [exemple](exemples/ex5/page3.html)
+
+---
+### Pseudo-classes
+- indique _l'état_ dans lequel l'élément doit être pour être ciblé.
+- `:hover` : Lorsque l'utilisateur __survole__ l'élément ciblé
+```css
+p:hover{
+    color : blue ;
+}
+```
+
+Voir [exemple](exemples/ex5/page1.html)
+
+---
+### Pseudo-classes
+- indique _l'état_ dans lequel l'élément doit être pour être ciblé.
+
+Spécialement pour  les _liens_ :
+- `:active` : au moment du click 
+- `:focus`  : lorsque l'élément est activé avec la souris
+- `:visited` : modifie le lien après que l'utilisateur l'a visité.
+
+Voir [exemple](exemples/ex5/page2.html)
+
+> _Attention_ :  `focus + active` rendre presque invisible l'effet 
+d'active. 
+
+---
+### Pseudo-classes
+* `:first-child` : désigne le premier enfant d'un élément
+* `:first-of-type` : cible le premier élément d'un type donné 
+* `:not(X)` : cible les éléments qui ne sont pas représentés par X
+* `:nth-child(an+b)` : cible les éléments fils dont les positions correspondent au motif an+b.
+
+Voir [exemple](exemples/ex5/page4.html)
 
 ---
 ### Validateur
@@ -504,3 +543,208 @@ https://jigsaw.w3.org/css-validator/
 ---
 ### Jeu
 https://flukeout.github.io/
+
+-  voir 12, 15, 16, 19, 22, 24, 26
+
+---
+### Les bordures
+- `border` : Définit les propriétés de la bordure d'un élément.
+- `border-width` (largeur) : `thin` (fin), `medium` (intermédiaire) ou `tick` (épais)
+- `border-width` : `3px`
+- 1 valeur :  largeur pour les quatre côtés
+- 2 valeurs :  1 (haute et basse) , 1 (droit et gauche)
+- 3 valeurs : 1 (haute), 1 (droit et gauche), 1 (basse)
+- 4 valeurs : 1 (haute), 1 (droit), 1(basse), 1(gauche) 
+
+---
+### Les bordures
+- `border` : Définit les propriétés de la bordure d'un élément.
+- `border-style` : 
+ * `dotted` : série de points 
+ * `dashed` : série de tirets 
+ * `solid` :  ligne droite continue
+ * `double` : deux lignes droites 
+ * `groove` et `ridge` : effets 3D. 
+
+---
+### Les bordures
+- `border-color` : couleur de la bordure. 
+
+Voir [exemple](exemples/ex5/page5.html)
+
+---
+### Les bordures
+Pour modifier une propriété d'un seul côté de la bordure : 
+- `border-top-color`
+- `border-bottom-width`
+- `border-left-style`
+- `border-right-color`
+
+---
+### Les bordures arrondies
+- `border-radius` : arrondir les angles 
+```css
+// 1px: haute - gauche
+// 2px: houte - droite 
+// 3px: bas   - droite 
+// 4px: bas   - gauche 
+elem { 
+    border-radius : 1px 2px 3px 4px;
+}
+```
+
+Voir [exemple](exemples/ex5/page6.html)
+
+--- 
+### Les ombres
+`box-shadow` : pour les _blocs_ :
+ - décalage horizontal
+ - décalage vertical
+ - adoucissement du dégradé
+ - couleur 
+
+Voir [exemple](exemples/ex5/page7.html)
+
+--- 
+### Les ombres
+`text-shadow` : pour le _texte_ :
+ - décalage horizontal
+ - décalage vertical
+ - adoucissement du dégradé
+ - couleur 
+
+Voir [exemple](exemples/ex5/page8.html)
+
+---
+### Opacité
+- `opacity` : valeur entre 0 et 1
+- 1.0 : totalement opaque 
+- 0.0 : totalement transparent 
+
+Voir [exemple](exemples/ex5/page9.html)
+
+---
+### Marges et Bordures 
+Tout élément HTML est considéré comme contenu dans une _boîte_, dont on peut définir :
+- l’aire intérieure (background)
+- l’espace intérieur (padding)
+- la bordure (border)
+- la marge extérieure (margin)
+
+<img src="./border.png" width="500"/>
+
+---
+### Marges et Bordures 
+
+<img src="./border2.png" width="700"/>
+
+---
+### Marges et Bordures 
+#### Marge extérieure
+En _pixels_ (px), en taille __relative__ (em) ou en _pourcentage_
+
+- `margin-top`
+- `margin-right`
+- `margin-bottom`
+- `margin-left`
+- `margin` : top right bottom left
+
+- Voir [Exemple](./exemples/ex6/page1.html)
+
+---
+### Marges et Bordures 
+#### Marge extérieure
+`margin : auto` : pour _centrer_ l'élément !
+
+- Voir [Exemple](./exemples/ex6/page2.html)
+---
+### Marges et Bordures 
+#### Marge intérieure
+
+- `padding-top`
+- `padding-right`
+- `padding-bottom`
+- `padding-left`
+- `padding` : top right bottom left
+
+- Voir [Exemple](./exemples/ex6/page3.html)
+
+---
+### Marges et Bordures 
+#### Dimensions et marges
+- `box-sizing : content-box`. Width correspondent à la taille du _contenu_ uniquement
+- `box-sizing : border-box`. Width correspondent à contenu + marges intérieures + bordure
+
+- Voir [Exemple](./exemples/ex6/page4.html)
+
+---
+###  L’affichage en cas de dépassement
+Propriété `overflow` : si le contenu d’un élément est supérieur aux dimensions (largeur et hauteur) de cet élément :
+
+- `visible` : le contenu dépassant de l’élément sera affiché  (_chevauchement_)
+- `hidden` : le contenu dépassant de l’élément ne sera pas affiché
+- `auto` : une barre de défilement sera ajoutée si cela est nécessaire
+
+- Voir [Exemple](./exemples/ex6/page5.html)
+---
+
+## Ordre d'application et héritage 
+---
+### Un conflit CSS
+
+```css
+p{ color : red ; }
+.class1{ color : blue ; }
+#id1{ color : yellow ; }
+```
+Quel couleur pour 
+
+`< p class="class1" id="id1" > < /p >` ?
+
+---
+### Un conflit CSS
+```css
+p{ color : red ; }
+.class1{ color : blue ; text-decoration: underline; }
+#id1{ color : yellow ; }
+```
+Souligné ou pas ?
+
+`< p class="class1" id="id1" > < /p >` 
+---
+###  Précision des sélecteurs 
+Le sélecteur le _plus précis_ imposera ses styles aux sélecteurs moins précis en cas de conflit.
+
+Degré de précision :
+1. `#id`
+2. `.class`
+3. Éléments 
+
+Voir [Exemple](./exemples/ex7/page.html)
+---
+### Héritage 
+``` 
+div{ color : red;}
+```
+
+Rouge ou pas ? 
+
+```
+< div > < p > < /p > < /div >
+```
+---
+### Héritage 
+- Les éléments enfants hérite les propriétés de leur parent.
+- En cas de _conflit_, la propriété de l'enfant est utilisée.
+- Propriétés tels que `margin`, `width`  et `border` ne sont pas hérité. 
+
+Voir [Exemple](./exemples/ex7/page1.html)
+---
+
+### N'oubliez pas ...
+de consulter la [référence](https://developer.mozilla.org/fr/docs/Web/CSS)
+des propriétés. 
+---
+### QCM
+
+https://www.wooclap.com/CMCSS

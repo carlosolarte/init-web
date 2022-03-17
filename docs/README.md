@@ -42,3 +42,9 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Modification du texte
 * Couleurs
 * Identifiants et classes
+
+## [CM 5 : CSS (17/03/2022)](./03-css/#/44)
+* Sélecteurs
+* Héritage 
+* Ordre d'application
+* Marges et Bordures
