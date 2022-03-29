@@ -49,3 +49,6 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 * Ordre d'application
 * Marges et Bordures
 
+## [CM 6 : Flexbox (31/03/2022)](./04-flex)
+* Flexbox
+* Sites adaptatifs
