@@ -1,0 +1,59 @@
+.cont1{
+    display : flex ;
+    flex-direction : row;
+    border : 4px solid ;
+    margin : 5px;
+    width : 100px;
+    flex-wrap : nowrap;
+}
+.cont2{
+    display : flex ;
+    flex-direction : row;
+    border : 4px solid ;
+    margin : 5px;
+    width : 100px;
+    flex-wrap : wrap;
+}
+
+.elem1{
+    width : 50px;
+    height : 70px;
+    background-color : blue;
+    flex-shrink : 1;
+}
+
+.elem2{
+    width : 50px;
+    height : 70px;
+    background-color : red;
+    flex-shrink : 2;
+}
+.elem3{
+    width : 50px;
+    height : 70px;
+    background-color : green;
+    flex-shrink : 1;
+}
+
+.elem1b{
+    width : 50px;
+    height : 70px;
+    background-color : blue;
+    flex-shrink : 2;
+}
+
+.elem2b{
+    width : 50px;
+    height : 70px;
+    background-color : red;
+    flex-shrink : 1;
+}
+.elem3b{
+    width : 50px;
+    height : 70px;
+    background-color : green;
+    flex-shrink : 2;
+}
+
+
+

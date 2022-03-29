@@ -1,0 +1,45 @@
+.cont1{
+    display : flex ;
+    flex-direction : row;
+    border : 4px solid ;
+    margin : 5px;
+}
+
+.cont2{
+    display : flex ;
+    flex-direction : row-reverse;
+    border : 4px solid ;
+    margin : 5px;
+}
+.cont3{
+    display : flex ;
+    flex-direction : column;
+    border : 4px solid ;
+    margin : 5px;
+}
+.cont4{
+    display : flex ;
+    flex-direction : column-reverse;
+    border : 4px solid ;
+    margin : 5px;
+}
+
+.elem1{
+    width : 50px;
+    height : 70px;
+    background-color : blue;
+}
+
+.elem2{
+    width : 50px;
+    height : 70px;
+    background-color : red;
+}
+.elem3{
+    width : 50px;
+    height : 70px;
+    background-color : green;
+}
+
+
+

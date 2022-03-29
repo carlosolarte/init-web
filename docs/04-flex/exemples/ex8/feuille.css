@@ -1,0 +1,63 @@
+.container {
+  display: flex;  
+  flex-flow: row wrap;
+}
+
+.container > * {
+  padding: 10px;
+  margin : 3px;
+}
+
+header {
+  background: black;
+  color : white;
+  order : 1 ;
+  width : 100%;
+}
+
+footer {
+  background: black;
+  color : white;
+  order : 5 ;
+  width : 100%;
+}
+
+.main {
+  background: #f3f2f3;
+  flex : 3 0 0px;
+  order : 3 ;
+  height : 400px;
+  overflow : auto ;
+}
+
+#aside1 {
+  background: #E4E3AC;
+  order : 2 ;
+  flex : 1 0 0px;
+}
+
+#aside2 {
+  background: #E4E3AC;
+  order  : 4 ; 
+  flex : 1 0 0px;
+}
+
+body {
+  padding: 2em; 
+}
+
+@media all and ( max-width : 600px ) {
+    .container {
+      display: flex;  
+      flex-flow: column;
+    }
+
+    .container > * {
+      padding: 0px;
+      margin : 0px;
+      flex : 1 100% ;
+    }
+    #aside1, #aside2 {
+      display : none ;
+    }
+}
