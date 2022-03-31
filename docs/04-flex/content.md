@@ -15,7 +15,7 @@ __Toutes les images dans les diapositives__ :
 * Les deux _axes_ : 
  - principal 
  - secondaire 
-* Tailler des élements :
+* Taille des élements :
  - largeur (_width_)
  - hauteur (_height_)
 * Deux types :
@@ -52,14 +52,14 @@ Propriété _flex-direction_:
 ---
 ### L'axe secondaire
 - _Perpendiculaire_ à l'axe principal
-- si `flex-direction : row` donc
+- si `flex-direction : row`, alors
 
 <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox/basics3.png">
 
 ---
 ### L'axe secondaire
 - _Perpendiculaire_ à l'axe principal
-- si `flex-direction : column` donc
+- si `flex-direction : column`, alors
 
 <img src="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox/basics4.png">
 
@@ -152,7 +152,7 @@ L'espace disponible
 ```
 ---
 ### Justification 
-- Propriété : `justify-content`
+- _Propriété_ : `justify-content`
 - Valeurs : `flex-start` `flex-end` `center` `space-around` `space-between` `space-evenly`
 
 > Alignent  des éléments le long de l'axe principal 
@@ -177,7 +177,7 @@ L'espace disponible
 - Propriété : `align-content`
 - Valeurs : `flex-start` `flex-end` `center` `space-between` `space-around` `space-evenly` `stretch`
 
-> Alignent quand il y d'espace disponible sur l'axe secondaire (et plusieurs lignes) 
+> Alignent quand il y d'espace disponible sur l'axe secondaire (et __plusieurs lignes__) 
 ---
 ### align-content
 <img src="https://css-tricks.com/wp-content/uploads/2018/10/align-content.svg" width=350>
@@ -247,7 +247,7 @@ Taille des éléments :
   flex : 1 0 0px;
   ...
 }
-footer {
+footer, header {
   width : 100%;
   ...
 }
