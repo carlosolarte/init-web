@@ -52,3 +52,10 @@ et du cours [d'Initiation au développement Web](https://lipn.univ-paris13.fr/~p
 ## [CM 6 : Flexbox (31/03/2022)](./04-flex)
 * Flexbox
 * Sites adaptatifs
+
+## [CM 7 : Tableaux, formulaires et multimedia  (07/04/2022)](./05-misc)
+* Tableaux
+* Formulaires 
+* img, audio, video
+* iframe
+* Sites adaptatifs

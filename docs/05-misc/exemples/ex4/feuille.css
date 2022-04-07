@@ -1,0 +1,6 @@
+div.input-form  label:nth-child(1){
+    width : 20%;
+    display : inline-block;
+    font-weight : bold;
+}
+

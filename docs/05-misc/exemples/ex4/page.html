@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- En-tête -->
+    <head>
+        <title> Le titre de la page </title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="feuille.css" />
+
+    </head>
+    <body>
+    <!-- On utilise ici GET uniquement pour montrer le résultat. 
+         Normalement, il faut utiliser POST -->
+
+    <form action="action.php" method="GET">
+    <fieldset>
+        <legend>Informations Personelles</legend>
+        <div class="input-form">
+            <label for="prenom">Nom complet  :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <input type="text" id="nom" name="nom" required>
+        </div>
+        <div class="input-form">
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div class="input-form">
+            <label for="tel">Téléphone :</label>
+            <input type="tel" id="tel" name="tel">
+        </div>
+        <div class="input-form">
+            <label for="web">Site web :</label>
+            <input type="url" id="web" name="web" placeholder="ex. http://www.google.com">
+        </div>
+        <div class="input-form">
+            <label for="date">Date de naissance :</label>
+            <input type="date" id="date" name="date" >
+        </div>
+        <div class="input-form">
+            <label for="emat">État matrimonial :</label>
+            <select id="emat" name="emat">
+                <option>Célibataire</option>
+                <option>Marié(e)</option>
+                <option>Veuf(ve)</option>
+                <option>Divorcé(e)</option>
+            </select>
+        </div>
+        <div class="input-form">
+            <label for="prof">Profession :</label>
+            <input type="text" id="prof" name="prof" list="listprof" >
+            <datalist id="listprof">
+                <option>Avocat</option>
+                <option>Comptable</option>
+                <option>Data scientist</option>
+                <option>Game designer</option>
+            </datalist>
+        </div>
+        <div class="input-form">
+            <label for="nenf">Nombre d'enfants :</label>
+            <input type="number" id="nenf" name="nenf" min="0" max="10" step="1">
+        </div>
+        <div class="input-form">
+            <label for="color">Couleur favorite  :</label>
+            <input type="color" id="color" name="color">
+        </div>
+        <div class="input-form">
+            <label for="cv">CV (en PDF)  :</label>
+            <input type="file" id="cv" name="cv" accept="application/pdf">
+        </div>
+        <div class="input-form">
+            <label for="obs">Observations :</label>
+            <textarea id="obs" name="obs" rows=5 cols = 64></textarea>
+        </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>Confirmation</legend>
+        <div class="input-form">
+            <label for="rad-tel">Méthode pour vous contacter :</label>
+            <input type="radio" checked id="rad-tel"   name="method" value="téléphone">
+            téléphone
+            <input type="radio"         id="rad-email" name="method" value="email">
+            email
+        </div>
+        <div class="input-form">
+            <label for="cond">Conditions :</label>
+            <input type="checkbox" id="cond" name="cond" value="oui"> Oui, j'accepte. 
+        </div>
+        <div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Envoyer">
+        </div>
+    </fieldset>
+
+
+        
+    </form>
+    </body>
+</html>

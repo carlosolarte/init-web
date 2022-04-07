@@ -1,0 +1,76 @@
+h1{
+    color : white;
+    font-weight : bold;
+    background-color: black;
+}
+
+h2{
+    color : white;
+    font-weight : bold;
+    font-style : italic;
+    background-color: gray;
+}
+
+/* Bordures pour toutes les cellules */
+table td, table th{
+    border : 1px solid ;
+}
+
+
+/* ============= */
+table.layout-fixed{
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: collapse ;
+  border: 3px solid black;
+}
+
+/* marge interne (plus d'espace)  */
+th, td {
+  padding: 10px;
+  font-family : sans-serif ;
+}
+
+/* caption, td et th */
+table{
+  font-family : sans-serif ;
+}
+
+thead th , tfoot th {
+    text-align : center ;
+    background : #BAD4F8;
+    color : black ;
+    font-weight : bold;
+}
+
+
+/* Définition de la largeur pour la première ligne de cellules. */
+.layout-fixed thead th:nth-child(1) {
+  width: 10%;
+}
+
+.layout-fixed thead th:nth-child(2) {
+  width: 45%;
+
+}
+
+.layout-fixed thead th:nth-child(3) {
+  width: 45%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #F3D4CD;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #DFD7D6;
+}
+
+caption {
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color : gray ;
+  text-align: right;
+}
+

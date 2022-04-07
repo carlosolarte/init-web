@@ -1,0 +1,73 @@
+
+/* Bordures pour toutes les cellules */
+table td, table th{
+    border : 1px solid ;
+}
+
+
+/* ============= */
+table.layout-fixed{
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: collapse ;
+}
+
+/* marge interne (plus d'espace)  */
+th, td {
+  padding: 10px;
+  font-family : sans-serif ;
+}
+
+/* caption, td et th */
+table{
+  font-family : sans-serif ;
+}
+
+th{ 
+    text-align : center ;
+    background : #BAD4F8;
+    color : black ;
+    font-weight : bold;
+    color : black ;
+    border : 1px solid black ;
+}
+
+
+
+/* Définition de la largeur pour la première ligne de cellules. */
+.layout-fixed thead :nth-child(1) {
+  width: 40%;
+}
+
+.layout-fixed thead :nth-child(2) {
+  width: 20%;
+
+}
+
+.layout-fixed thead :nth-child(3) {
+  width: 20%;
+}
+
+.layout-fixed thead :nth-child(4) {
+  width: 20%;
+}
+
+/* classes pour les colonnes */
+.moyen{
+    background : #F8F9A4;
+    }
+.minmax{
+    background : #F6AD78;
+    }
+
+caption {
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+}
+
+thead  tr  td{
+    border : none;
+}

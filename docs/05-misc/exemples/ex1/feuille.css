@@ -1,0 +1,48 @@
+h1{
+    color : white;
+    font-weight : bold;
+    background-color: black;
+}
+
+h2{
+    color : white;
+    font-weight : bold;
+    font-style : italic;
+    background-color: gray;
+}
+
+/* Bordures pour toutes les cellules */
+table td, table th{
+    border : 1px solid ;
+}
+
+
+table.layout-auto{
+  table-layout: auto;
+  width: 60%;
+  border-collapse: collapse; 
+  border: 3px solid blue;
+}
+
+/* ============= */
+table.layout-fixed{
+  table-layout: fixed;
+  width: 60%;
+  border-collapse: separate ;
+  border: 3px dotted red;
+}
+
+/* Définition de la largeur pour la première ligne de cellules. */
+.layout-fixed thead th:nth-child(1) {
+  width: 10%;
+}
+
+.layout-fixed thead th:nth-child(2) {
+  width: 50%;
+
+}
+
+.layout-fixed thead th:nth-child(3) {
+  width: 40%;
+}
+
